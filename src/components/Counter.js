@@ -7,6 +7,11 @@ const Counter = () => {
     // eslint-disable-next-line prettier/prettier
     setCounter(counter + 1)
   };
+
+  const decreaseBtn = () => {
+    // eslint-disable-next-line prettier/prettier
+    setCounter(counter - 1)
+  };
   return (
     <div className="counter center">
       <h1 className="counter__title">Counter App</h1>
@@ -16,7 +21,9 @@ const Counter = () => {
           <button className="btn card__btn" onClick={increaseBtn} disabled={counter === 5}>
             +
           </button>
-          <button className="btn card__btn"> - </button>
+          <button className="btn card__btn" onClick={decreaseBtn} disabled={counter === 0}>
+            -
+          </button>
           <button className="btn card__btn"> 0 </button>
         </div>
       </div>
