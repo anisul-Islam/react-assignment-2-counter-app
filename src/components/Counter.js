@@ -24,7 +24,9 @@ const Counter = () => {
           <button className="btn card__btn" onClick={decreaseBtn} disabled={counter === 0}>
             -
           </button>
-          <button className="btn card__btn"> 0 </button>
+          <button className="btn card__btn" onClick={() => setCounter(0)}>
+            0
+          </button>
         </div>
       </div>
     </div>
