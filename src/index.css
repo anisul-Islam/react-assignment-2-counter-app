@@ -67,5 +67,5 @@ body {
 .btn:disabled {
   background-color: #ddd;
   color: #555;
-  cursor: default;
+  cursor: not-allowed;
 }
