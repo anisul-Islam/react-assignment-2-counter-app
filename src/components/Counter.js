@@ -13,13 +13,13 @@ const Counter = () => {
             className="btn btn-outline-light"
             onClick={() => setCount(count + 1)}
             disabled={count >= 5}>
-            +
+            <i className="fa-solid fa-plus"></i>
           </button>
           <button
             className="btn btn-outline-light"
             onClick={() => setCount(count - 1)}
             disabled={count <= -5}>
-            -
+            <i className="fa-solid fa-minus"></i>
           </button>
           <button className="btn btn-outline-light" onClick={() => setCount(0)}>
             0
