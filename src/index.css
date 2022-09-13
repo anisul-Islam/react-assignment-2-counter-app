@@ -48,7 +48,7 @@ body {
   border-radius: var(--border-radius);
 }
 
-.btn {
+.btn-counter {
   border: none;
   padding: 0.1rem 0.6rem;
   border-radius: var(--border-radius);
@@ -56,13 +56,16 @@ body {
   transition: all 0.3s;
   margin: 0 0.2rem;
   color: rgb(195, 154, 77);
+  cursor: pointer;
 }
 
-.btn:hover {
+.btn-counter:hover {
   background-color: orange;
   color: black;
 }
 
-.btn:disabled {
-  background-color: red;
+.btn-counter:disabled {
+  background-color: #ddd;
+  color: #555;
+  cursor: not-allowed;
 }

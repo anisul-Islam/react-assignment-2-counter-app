@@ -10,7 +10,11 @@
 
 ### [Click here to see the project demo](https://react-assignment-2-counter-app.netlify.app/)
 
-### Assignment steps:
+## Assignment submited by suny-shaikh
+
+### [Click here to see my assignment project](https://counter-app-suny-shaikh.netlify.app/)
+
+### Assignment steps
 
 - part 1: make sure that increment, decrement and reset functionality works (3 points)
 - part 2: disable buttons(2 points)

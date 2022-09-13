@@ -1,15 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Counter = () => {
+  const [count, setCount] = useState(0);
+
   return (
     <div className="counter center">
-      <h1 className="counter__title">Counter App</h1>
-      <div className="card center">
-        <h2 className="card__title">Count : 0</h2>
-        <div className="card__btns">
-          <button className="btn card__btn">+</button>
-          <button className="btn card__btn">-</button>
-          <button className="btn card__btn">0</button>
+      <h1 className="text-light">Counter App</h1>
+      <div className="card center bg-light bg-opacity-25">
+        <h2 className="text-light">Count : {count}</h2>
+        <div className="btn-group" role="group" aria-label="Large button group">
+          <button
+            className="btn btn-outline-light"
+            onClick={() => setCount(count + 1)}
+            disabled={count >= 5}>
+            <i className="fa-solid fa-plus"></i>
+          </button>
+          <button
+            className="btn btn-outline-light"
+            onClick={() => setCount(count - 1)}
+            disabled={count <= -5}>
+            <i className="fa-solid fa-minus"></i>
+          </button>
+          <button className="btn btn-outline-light" onClick={() => setCount(0)}>
+            0
+          </button>
         </div>
       </div>
     </div>
