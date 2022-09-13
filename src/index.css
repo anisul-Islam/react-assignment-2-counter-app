@@ -48,7 +48,7 @@ body {
   border-radius: var(--border-radius);
 }
 
-.btn {
+.btn-counter {
   border: none;
   padding: 0.1rem 0.6rem;
   border-radius: var(--border-radius);
@@ -59,12 +59,12 @@ body {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn-counter:hover {
   background-color: orange;
   color: black;
 }
 
-.btn:disabled {
+.btn-counter:disabled {
   background-color: #ddd;
   color: #555;
   cursor: not-allowed;
