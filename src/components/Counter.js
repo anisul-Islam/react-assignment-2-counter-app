@@ -8,20 +8,20 @@ const Counter = () => {
       <h1 className="text-light">Counter App</h1>
       <div className="card center bg-light bg-opacity-25">
         <h2 className="text-light">Count : {count}</h2>
-        <div className="btn-group" role="group" aria-label="Basic example">
+        <div className="btn-group" role="group" aria-label="Large button group">
           <button
-            className="btn btn-danger"
+            className="btn btn-outline-light"
             onClick={() => setCount(count + 1)}
             disabled={count >= 5}>
             +
           </button>
           <button
-            className="btn btn-danger"
+            className="btn btn-outline-light"
             onClick={() => setCount(count - 1)}
             disabled={count <= -5}>
             -
           </button>
-          <button className="btn btn-danger" onClick={() => setCount(0)}>
+          <button className="btn btn-outline-light" onClick={() => setCount(0)}>
             0
           </button>
         </div>
