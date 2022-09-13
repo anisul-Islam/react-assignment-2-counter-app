@@ -56,13 +56,16 @@ body {
   transition: all 0.3s;
   margin: 0 0.2rem;
   color: rgb(195, 154, 77);
+  background-color: green;
 }
 
 .btn:hover {
   background-color: orange;
   color: black;
+  transition: 1s ease;
 }
 
 .btn:disabled {
   background-color: red;
 }
+
