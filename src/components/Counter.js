@@ -6,7 +6,7 @@ const Counter = () => {
   return (
     <div className="counter center">
       <h1 className="text-light">Counter App</h1>
-      <div className="card center bg-light bg-opacity-25 border-none">
+      <div className="card center bg-light bg-opacity-25">
         <h2 className="text-light">Count : {count}</h2>
         <div className="btn-group" role="group" aria-label="Basic example">
           <button
