@@ -15,7 +15,7 @@ const Counter = () => {
   }
   return (
     <div className="counter center">
-      <h1 className="counter__title">Counter App</h1>
+      <h1 className="counter__title text-center text-xl text-primary bg-slate-800">Counter App</h1>
       <div className="card center">
         <h2 className="card__title">Count : {count}</h2>
         <div className="card__btns">

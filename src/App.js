@@ -1,11 +1,25 @@
 import React from 'react';
-import Counter from './components/Counter';
+import Feature2 from './components/Feature2';
+import Features from './components/Features';
+import Hero from './components/Hero';
+import NewItems from './components/NewItems';
+import Product from './components/Product';
+
 
 const App = () => {
   return (
-    <div>
-      <Counter />
-    </div>
+    <section className='w-full max-w-[1440px] mx-auto bg-primary'>
+      
+      <Hero/>
+      <Features/>
+      <NewItems />
+      <Feature2/>
+      <Product/>
+
+
+
+    </section>
+   
   );
 };
 
