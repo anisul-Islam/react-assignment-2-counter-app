@@ -19,7 +19,7 @@ import Features2Img from './asstes/img/features-2.png'
 import CupboardImg from './asstes/img/cupboard.png';
 // import LightingImg from './assets/img/lighting.p
 import LightingImg from  './asstes/img/lighting.png'
-import Product1Img from './asstes/products/product-2.png'
+import Product1Img from './asstes/products/product-1.png'
 import Product2Img from './asstes/products/product-2.png';
 import Product3Img from './asstes/products/product-3.png';
 import Product4Img from './asstes/products/product-4.png';
@@ -215,21 +215,21 @@ export const products = {
         {
             productList: [
                 {
-                    image: <Product1Img />,
+                    image: <Product5Img />,
                     icon: <IoMdAddCircle />,
                     name: 'Ceiling Light',
                     price: 75,
                     oldPrice: 82,
                 },
                 {
-                    image: <Product2Img />,
+                    image: <Product3Img />,
                     icon: <IoMdAddCircle />,
                     name: 'Wood Chair',
                     price: 50,
                     oldPrice: 70,
                 },
                 {
-                    image: <Product3Img />,
+                    image: <Product7Img />,
                     icon: <IoMdAddCircle />,
                     name: 'Papper Cupboard',
                     price: 105,
@@ -243,14 +243,14 @@ export const products = {
                     oldPrice: 82,
                 },
                 {
-                    image: <Product5Img />,
+                    image: <Product2Img />,
                     icon: <IoMdAddCircle />,
                     name: 'Treos Seroes 911',
                     price: 200,
                     oldPrice: 210,
                 },
                 {
-                    image: <Product6Img />,
+                    image: <Product1Img />,
                     icon: <IoMdAddCircle />,
                     name: 'Multi bilderman slibber',
                     price: 45,
@@ -264,14 +264,14 @@ export const products = {
                     oldPrice: 325,
                 },
                 {
-                    image: <Product8Img />,
+                    image: <Product9Img />,
                     icon: <IoMdAddCircle />,
                     name: 'Black Forest Series Wood',
                     price: 225,
                     oldPrice: 240,
                 },
                 {
-                    image: <Product9Img />,
+                    image: <Product8Img />,
                     icon: <IoMdAddCircle />,
                     name: 'Papper Cupboard',
                     price: 105,
