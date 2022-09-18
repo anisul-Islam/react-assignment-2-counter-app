@@ -7,7 +7,7 @@ import States from './States';
 
 
   return (
-      <section className=' h-[850px]  mx-auto bg-hero  bg-cover bg-right bg-no-repeat
+      <section id='home' className=' h-[850px]  mx-auto bg-hero  bg-cover bg-right bg-no-repeat
     text-white pt-[225px] pb-[254px] relative mb-4 
     
     md:w-full
