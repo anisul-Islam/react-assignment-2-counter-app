@@ -19,6 +19,7 @@ const Header = () => {
             window.addEventListener('scroll',()=>{
                 return window.scrollY > 50 ? setbg(true) : setbg(false);
             })
+            
         })
 
   return (
@@ -53,7 +54,7 @@ const Header = () => {
                   {/* nav mobile  */}
                   <div className={`
                   ${mobilenab ? 'left-0' : '-left-full'}
-                  md:hidden fixed bottom-0 w-full max-w-xs h-screen transition-all
+                  md:hidden fixed bottom-0 w-full max-w-[200px] h-screen transition-all
                   `}>
                       <Navmobile />
                   </div>
