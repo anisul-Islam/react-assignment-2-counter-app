@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
 :root {
-  --border-radius: 0.6rem;
+  --border-radius: 6px;
   --text-color: #fff;
 }
 
@@ -16,7 +18,8 @@ html {
 }
 
 body {
-  background-color: #4c4c4c;
+  background-color: #0e0d11;
+  font-family: 'Nunito', sans-serif;
 }
 
 .center {
@@ -35,16 +38,16 @@ body {
 .counter__title {
   color: var(--text-color);
   font-size: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   color: orange;
 }
 
 .card {
-  background-color: #3c3c3c;
+  background-color: #ffffff;
   width: 100%;
   max-width: 30rem;
-  color: rgb(195, 154, 77);
-  padding: 1rem;
+  color: rgb(10, 10, 10);
+  padding: 2rem;
   border-radius: var(--border-radius);
 }
 
@@ -55,14 +58,16 @@ body {
   font-size: 1.6rem;
   transition: all 0.3s;
   margin: 0 0.2rem;
-  color: rgb(195, 154, 77);
+  padding: 6px 24px;
+  cursor: pointer;
+  background-color: rgb(80, 62, 236);
+  color: #ffffff;
 }
 
 .btn:hover {
-  background-color: orange;
-  color: black;
+  background-color: rgb(101, 84, 255);
 }
 
 .btn:disabled {
-  background-color: red;
+  background-color: rgb(255, 8, 41);
 }
