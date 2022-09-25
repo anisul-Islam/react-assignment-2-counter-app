@@ -38,13 +38,13 @@ const Counter = () => {
           <button
             className="btn card__btn"
             onClick={incrementCount}
-            disabled={State.stuck ? true : false}>
+            disabled={State.incrementstuck ? true : false}>
             +
           </button>
           <button
             className="btn card__btn"
             onClick={decrementCount}
-            disabled={State.stuck ? true : false}>
+            disabled={State.decrementstuck ? true : false}>
             -
           </button>
           <button className="btn card__btn" onClick={() => setState({ count: 0 })}>
