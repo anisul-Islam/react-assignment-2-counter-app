@@ -1,8 +1,15 @@
 {
   "semi": true,
-  "tabWidth": 2,
-  "printWidth": 100,
+  "tabWidth": 4,
   "singleQuote": true,
   "trailingComma": "none",
-  "jsxBracketSameLine": true
+  "jsxBracketSameLine": true,
+  "useTabs": true,
+  "rules": {
+   "indent": ["error", "tab",{
+  "printWidth": 120}],
+   "prettier/prettier": [2, { "useTabs": true }],
+    "endOfLine": "lf"
 }
+}
+
