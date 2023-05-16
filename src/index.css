@@ -50,7 +50,7 @@ body {
 
 .btn {
   border: none;
-  padding: 0.1rem 0.6rem;
+  padding: 0.1rem 1rem;
   border-radius: var(--border-radius);
   font-size: 1.6rem;
   transition: all 0.3s;
