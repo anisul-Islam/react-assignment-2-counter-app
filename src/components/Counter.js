@@ -7,7 +7,7 @@ const Counter = () => {
 
   const increment = () => {
     setCount(count + 1);
-    isDisabled
+    
   };
   const drecremant = () => {
     setCount(count - 1);
