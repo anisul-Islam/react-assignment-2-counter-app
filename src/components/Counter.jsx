@@ -17,7 +17,7 @@ const Counter = () => {
     <div className="counter center">
       <div className="card center">
         <h2 className="card__title">Count : {count}</h2>
-        <div className="card__btns">
+        <div className="card__btn">
           <button onClick={handleIncrement} className="btn card__btn">
             +
           </button>
