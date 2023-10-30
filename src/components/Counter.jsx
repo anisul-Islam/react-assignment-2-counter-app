@@ -2,22 +2,16 @@ import { useState } from "react";
 
 const Counter = () => {
     const [count, setCount] = useState(0);
-    const [trackCount, setTractCount] = useState(false);
 
     const handleCounter = (e, type) => {
-        console.log(e);
-        if (type === "increment" && count !== 5) {
+        // console.log(e);
+        if (type === "increment" && count !== 5)
             setCount((prevCount) => prevCount + 1);
-            setTractCount(false);
-        } else if (type === "decrement" && count !== -5) {
+        else if (type === "decrement" && count !== -5)
             setCount((prevCount) => prevCount - 1);
-            trackCount(false);
-        } else if (type === "zero") {
+        else if (type === "zero") {
             setCount(0);
-            trackCount(false);
         }
-        if (count === 5) trackCount(true);
-        else if (count === -5) trackCount(true);
     };
     return (
         <div className="counter center">
@@ -26,11 +20,13 @@ const Counter = () => {
                 <h2 className="card__title">Count : {count}</h2>
                 <div className="card__btns">
                     <button
+                        disabled={count === 5}
                         className="btn card__btn"
                         onClick={(e) => handleCounter(e, "increment")}>
                         +
                     </button>
                     <button
+                        disabled={count === -5}
                         className="btn card__btn"
                         onClick={(e) => handleCounter(e, "decrement")}>
                         -
