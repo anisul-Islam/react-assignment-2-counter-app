@@ -1,19 +1,8 @@
-# React assigment - 2 : Counter App
+# React + Vite
 
-## Total points = 5
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Purpose of this assignment : Testing students skills on
+Currently, two official plugins are available:
 
-- useState() hook
-- Event Handler
-- conditional rendering
-
-### [Click here to see the project demo](https://react-assignment-2-counter-app.netlify.app/)
-
-### Assignment steps:
-
-- part 1: make sure that increment, decrement and reset functionality works (3 points)
-- part 2: disable buttons(2 points)
-
-  - disable increment button when count value is 5
-  - disable decrement button when count value is -5
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
