@@ -28,8 +28,12 @@ body {
 }
 
 .counter {
-  height: 100vh;
+  height: 80vh;
+  width: 800px;
   padding: 1rem;
+  border: 2px solid red;
+  margin: 80px auto;
+  background-color: aquamarine;
 }
 
 .counter__title {
