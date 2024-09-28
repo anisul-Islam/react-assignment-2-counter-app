@@ -17,3 +17,4 @@
 
   - disable increment button when count value is 5
   - disable decrement button when count value is -5
+Khalid'd add some text.
