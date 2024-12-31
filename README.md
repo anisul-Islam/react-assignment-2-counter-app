@@ -8,7 +8,7 @@
 - Event Handler
 - conditional rendering
 
-### [Click here to see the project demo](https://react-assignment-2-counter-app.netlify.app/)
+### [Click here to see the project demo(Made By Me)](https://react-count-app-assignment.netlify.app/)
 
 ### Assignment steps:
 

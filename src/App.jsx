@@ -1,9 +1,9 @@
-import React from 'react';
+
 import Counter from './components/Counter';
 
 const App = () => {
   return (
-    <div>
+    <div className='counter__parent'>
       <Counter />
     </div>
   );
