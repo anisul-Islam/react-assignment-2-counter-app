@@ -1,3 +1,6 @@
+
+
+
 :root {
   --border-radius: 0.6rem;
   --text-color: #fff;
@@ -61,8 +64,11 @@ body {
 .btn:hover {
   background-color: orange;
   color: black;
+  cursor: pointer;
 }
 
 .btn:disabled {
   background-color: red;
+  cursor: not-allowed;
+  
 }
